@@ -208,7 +208,7 @@ function holdmyproduct_settings_page() {
         <div id="general" class="tab-content active">
             <form method="post" action="options.php">
                 <?php
-                settings_fields('holdmyproduct_settings_group');
+                settings_fields('holdmyproduct_options_group');
                 do_settings_sections('holdmyproduct-settings');
                 submit_button();
                 ?>
